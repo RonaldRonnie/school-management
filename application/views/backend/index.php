@@ -29,7 +29,7 @@ $running_year   = $this->db->get_where('settings', array('type' => 'session'))->
                 <!-- .right-sidebar -->
                 <div class="right-sidebar" style="background:url(<?php echo base_url(); ?>assets/images/10.png); opacity: 0.9;">
                     <div class="slimscrollright">
-                        <div class="rpanel-title">Current Mesage Thread<span><i class="ti-close right-side-toggle"></i></span> </div>
+                        <div class="rpanel-title">Current Message Thread<span><i class="ti-close right-side-toggle"></i></span> </div>
                         <div class="r-panel-body">
                           
                             <ul class="m-t-20 chatonline">
