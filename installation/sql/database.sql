@@ -782,7 +782,7 @@ CREATE TABLE IF NOT EXISTS `parent` (
 --
 
 INSERT INTO `parent` (`parent_id`, `name`, `email`, `password`, `phone`, `address`, `profession`, `login_status`) VALUES
-(4, 'Mr. Parent', 'parent@parent.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', '+912345667', 'Udemy Address', 'Learners', '0');
+(4, 'Mr. Parent', 'parent@parent.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', '+256708291921', 'Udemy Address', 'Learners', '0');
 
 -- --------------------------------------------------------
 
@@ -863,18 +863,18 @@ CREATE TABLE IF NOT EXISTS `settings` (
 --
 
 INSERT INTO `settings` (`settings_id`, `type`, `description`) VALUES
-(1, 'system_name', 'Gosfem Community Edition'),
-(2, 'system_title', 'Gosfem Community Edition'),
-(3, 'address', '546787, Kertz shopping complext, Silicon Valley, United State of America, New York city.'),
-(4, 'phone', '+1564783934'),
+(1, 'system_name', 'Fair Technologies Investments Limited'),
+(2, 'system_title', 'School Managemnet System'),
+(3, 'address', '6529, Bugema , Kampala, Luweero.'),
+(4, 'phone', '+256708291921'),
 (6, 'currency', 'usd'),
-(7, 'system_email', 'payment@optimumlinkup.com'),
+(7, 'system_email', 'ronald2ouma2@gmail.com'),
 (11, 'language', 'english'),
 (12, 'text_align', 'left-to-right'),
 (16, 'skin_colour', 'green'),
 (21, 'session', '2019-2020'),
-(22, 'footer', 'Bringing to you by Gosfem Community Developers'),
-(116, 'paypal_email', 'info@gosfem.com'),
+(22, 'footer', 'Brought to you by Fair Technologies Investments Limited'),
+(116, 'paypal_email', 'ronald2ouma2@gmail.com'),
 (119, 'stripe_setting', '[{\"stripe_active\":\"1\",\"testmode\":\"off\",\"secret_key\":\"test secret key\",\"public_key\":\"test public key\",\"secret_live_key\":\"live secret key\",\"public_live_key\":\"live public key\"}]'),
 (122, 'paypal_setting', '[{\"paypal_active\":\"1\",\"paypal_mode\":\"sandbox\",\"sandbox_client_id\":\"client id sandbox\",\"production_client_id\":\"client - production\"}]');
 
@@ -927,8 +927,7 @@ CREATE TABLE IF NOT EXISTS `social_category` (
 --
 
 INSERT INTO `social_category` (`social_category_id`, `name`, `colour`, `icon`, `description`) VALUES
-(2, 'Romance', 'danger', 'fa-male', 'This is for romance chat room'),
-(3, 'Event', 'primary', 'fa-book', 'This is for event chat room');
+(2, 'Event', 'primary', 'fa-book', 'This is for event chat room');
 
 -- --------------------------------------------------------
 
@@ -990,7 +989,7 @@ CREATE TABLE IF NOT EXISTS `student` (
 --
 
 INSERT INTO `student` (`student_id`, `name`, `birthday`, `age`, `place_birth`, `sex`, `m_tongue`, `religion`, `blood_group`, `address`, `city`, `state`, `nationality`, `phone`, `email`, `ps_attended`, `ps_address`, `ps_purpose`, `class_study`, `date_of_leaving`, `am_date`, `tran_cert`, `dob_cert`, `mark_join`, `physical_h`, `password`, `father_name`, `mother_name`, `class_id`, `section_id`, `parent_id`, `roll`, `transport_id`, `dormitory_id`, `house_id`, `student_category_id`, `club_id`, `session`, `card_number`, `issue_date`, `expire_date`, `dormitory_room_number`, `more_entries`, `login_status`) VALUES
-(45, 'Testing Student', '09/30/2003', '16', 'Lagos', 'female', 'Mother Tongue', 'Muslim', 'B+', 'Address', 'City', 'Lagos', 'Canadian', '+912345667', 'student@student.com', 'Previous school attended', 'Previous school address', 'Purpose Of Leaving', 'Class In Which Was Studying', '2011-08-10', '2011-08-19', 'Yes', 'Yes', 'Yes', 'No', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', '', '', '2', 0, 4, '5bf8161', 0, 2, 1, 2, 1, '2019-2020', '', '', '', '', '', '0');
+(45, 'Ouma Ronald', '09/09/1998', '25', 'Masaka', 'Male', 'Luganda', 'SDA', 'O+', 'Bugema', 'Luweero', 'Central', 'Ugandan', '+25670829191', 'student@student.com', 'BASS', 'BASS', 'Completed', 'P1', '2024-08-10', '2024-08-19', 'Yes', 'Yes', 'Yes', 'No', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', '', '', '2', 0, 4, '5bf8161', 0, 2, 1, 2, 1, '2019-2020', '', '', '', '', '', '0');
 
 -- --------------------------------------------------------
 
@@ -1080,7 +1079,7 @@ CREATE TABLE IF NOT EXISTS `teacher` (
 --
 
 INSERT INTO `teacher` (`teacher_id`, `name`, `role`, `teacher_number`, `birthday`, `sex`, `religion`, `blood_group`, `address`, `phone`, `email`, `facebook`, `twitter`, `googleplus`, `linkedin`, `qualification`, `marital_status`, `file_name`, `password`, `department_id`, `designation_id`, `date_of_joining`, `joining_salary`, `status`, `date_of_leaving`, `bank_id`, `login_status`) VALUES
-(1, 'Testing Teacher', '1', 'f82e5cc', '2018-08-19', 'male', 'Christianity', 'B+', '546787, Kertz shopping complext, Silicon Valley, United State of America, New York city.', '+912345667', 'teacher@teacher.com', 'facebook', 'twitter', 'googleplus', 'linkedin', 'PhD', 'Married', 'profile.png', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 2, 4, '2019-09-15', '5000', 1, '2019-09-18', 3, '0');
+(1, 'Ouma Ronald', '1', 'f82e5cc', '2018-08-19', 'male', 'SDA', 'B+', '6529, Bugema, Luweero ', '+256708291921', 'teacher@teacher.com', 'facebook', 'twitter', 'googleplus', 'linkedin', 'Bachelors', 'Single', 'profile.png', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 2, 4, '2019-09-15', '500', 1, '2019-09-18', 3, '0');
 
 -- --------------------------------------------------------
 
@@ -1118,8 +1117,8 @@ CREATE TABLE IF NOT EXISTS `transport_route` (
 --
 
 INSERT INTO `transport_route` (`transport_route_id`, `name`, `description`) VALUES
-(2, 'Toronto to Usa', 'This is vehicle is going from Canada to Usa'),
-(3, 'Lagos to Canada', 'This is going to Canada');
+(2, 'Bugema to Luweero', 'This is vehicle is going from Bugema to Luweero'),
+(3, 'Bugema to Kampala', 'This is going to Kampala');
 
 -- --------------------------------------------------------
 
